@@ -75,17 +75,17 @@ function functionConfirm(msg)
    });
    confirmBox.find(".yes").click(()=>{
      if(isOpera){
-      openLinkNewTab('https://raifamily30thanniversary.com/TemplateData/Hardware-Acceleration-Guide-Opera.pdf');
+      openLinkNewTab('http://raifamily30thanniversary.com/TemplateData/Hardware-Acceleration-Guide-Opera.pdf');
 
      }else if(isFirefox){
-       openLinkNewTab('https://raifamily30thanniversary.com/TemplateData/Hardware-Acceleration-Guide-Firefox.pdf');
+       openLinkNewTab('http://raifamily30thanniversary.com/TemplateData/Hardware-Acceleration-Guide-Firefox.pdf');
      } else if(isEdge){
-       openLinkNewTab('https://raifamily30thanniversary.com/TemplateData/Hardware-Acceleration-Guide-Edge.pdf');
+       openLinkNewTab('http://raifamily30thanniversary.com/TemplateData/Hardware-Acceleration-Guide-Edge.pdf');
      }else if(isSafari){
-      openLinkNewTab('https://raifamily30thanniversary.com/TemplateData/Hardware-Acceleration-Guide-Safari.pdf');
+      openLinkNewTab('http://raifamily30thanniversary.com/TemplateData/Hardware-Acceleration-Guide-Safari.pdf');
      }
      else{
-      openLinkNewTab('https://raifamily30thanniversary.com/TemplateData/Hardware-Acceleration-Guide-Chrome.pdf');
+      openLinkNewTab('http://raifamily30thanniversary.com/TemplateData/Hardware-Acceleration-Guide-Chrome.pdf');
      }
 
    });
